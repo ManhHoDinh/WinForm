@@ -31,6 +31,7 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.projectToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.day05CaculatorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.day06RandomGameToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -49,7 +50,8 @@
             // projectToolStripMenuItem
             // 
             this.projectToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.day05CaculatorToolStripMenuItem});
+            this.day05CaculatorToolStripMenuItem,
+            this.day06RandomGameToolStripMenuItem});
             this.projectToolStripMenuItem.Name = "projectToolStripMenuItem";
             this.projectToolStripMenuItem.Size = new System.Drawing.Size(82, 29);
             this.projectToolStripMenuItem.Text = "Project";
@@ -57,9 +59,16 @@
             // day05CaculatorToolStripMenuItem
             // 
             this.day05CaculatorToolStripMenuItem.Name = "day05CaculatorToolStripMenuItem";
-            this.day05CaculatorToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
+            this.day05CaculatorToolStripMenuItem.Size = new System.Drawing.Size(301, 34);
             this.day05CaculatorToolStripMenuItem.Text = "Day05 - Caculator";
             this.day05CaculatorToolStripMenuItem.Click += new System.EventHandler(this.day05CaculatorToolStripMenuItem_Click);
+            // 
+            // day06RandomGameToolStripMenuItem
+            // 
+            this.day06RandomGameToolStripMenuItem.Name = "day06RandomGameToolStripMenuItem";
+            this.day06RandomGameToolStripMenuItem.Size = new System.Drawing.Size(301, 34);
+            this.day06RandomGameToolStripMenuItem.Text = "Day06 - Random Game";
+            this.day06RandomGameToolStripMenuItem.Click += new System.EventHandler(this.day06RandomGameToolStripMenuItem_Click);
             // 
             // PracticeWithProject
             // 
@@ -70,7 +79,6 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "PracticeWithProject";
             this.Text = "PracticeWithProject";
-          
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
@@ -83,5 +91,6 @@
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem projectToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem day05CaculatorToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem day06RandomGameToolStripMenuItem;
     }
 }

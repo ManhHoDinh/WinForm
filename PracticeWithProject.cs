@@ -33,6 +33,10 @@ namespace Day2
             day05_Calculator.Show();
         }
 
-      
+        private void day06RandomGameToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            RandomGameDay06 randomGameDay06 = new RandomGameDay06();
+            randomGameDay06.Show();
+        }
     }
 }
