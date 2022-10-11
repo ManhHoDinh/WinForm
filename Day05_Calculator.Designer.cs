@@ -39,6 +39,7 @@
             this.btSubtraction = new System.Windows.Forms.Button();
             this.btMultiplication = new System.Windows.Forms.Button();
             this.btDivision = new System.Windows.Forms.Button();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // lbNameForm
@@ -153,11 +154,20 @@
             this.btDivision.UseVisualStyleBackColor = true;
             this.btDivision.Click += new System.EventHandler(this.btDivision_Click);
             // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(657, 242);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(121, 28);
+            this.comboBox1.TabIndex = 5;
+            // 
             // Day05_Calculator
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.btDivision);
             this.Controls.Add(this.btMultiplication);
             this.Controls.Add(this.btSubtraction);
@@ -193,5 +203,6 @@
         private System.Windows.Forms.Button btSubtraction;
         private System.Windows.Forms.Button btMultiplication;
         private System.Windows.Forms.Button btDivision;
+        private System.Windows.Forms.ComboBox comboBox1;
     }
 }
