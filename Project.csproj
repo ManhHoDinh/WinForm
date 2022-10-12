@@ -61,6 +61,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ChangeColorDay07.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChangeColorDay07.Designer.cs">
+      <DependentUpon>ChangeColorDay07.cs</DependentUpon>
+    </Compile>
     <Compile Include="Day05_Calculator.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -111,6 +117,9 @@
     <Compile Include="RandomGameDay06.Designer.cs">
       <DependentUpon>RandomGameDay06.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="ChangeColorDay07.resx">
+      <DependentUpon>ChangeColorDay07.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Day05_Calculator.resx">
       <DependentUpon>Day05_Calculator.cs</DependentUpon>
     </EmbeddedResource>

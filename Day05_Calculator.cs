@@ -71,8 +71,8 @@ namespace Day2
                     throw new Exception("Please, Input all box");
                 int a = int.Parse(tbA.Text);
                 int b = int.Parse(tbB.Text);
-                
-                tbResult.Text = (a / b).ToString();
+                double result = (double)(a / b);
+;               tbResult.Text = result.ToString();
             }
             catch (FormatException)
             {

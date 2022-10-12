@@ -17,6 +17,7 @@ namespace Day2
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Day02());
+           
         }
     }
 }

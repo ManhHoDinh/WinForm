@@ -32,6 +32,7 @@
             this.projectToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.day05CaculatorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.day06RandomGameToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.day07ChangeColorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -51,7 +52,8 @@
             // 
             this.projectToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.day05CaculatorToolStripMenuItem,
-            this.day06RandomGameToolStripMenuItem});
+            this.day06RandomGameToolStripMenuItem,
+            this.day07ChangeColorToolStripMenuItem});
             this.projectToolStripMenuItem.Name = "projectToolStripMenuItem";
             this.projectToolStripMenuItem.Size = new System.Drawing.Size(82, 29);
             this.projectToolStripMenuItem.Text = "Project";
@@ -69,6 +71,13 @@
             this.day06RandomGameToolStripMenuItem.Size = new System.Drawing.Size(301, 34);
             this.day06RandomGameToolStripMenuItem.Text = "Day06 - Random Game";
             this.day06RandomGameToolStripMenuItem.Click += new System.EventHandler(this.day06RandomGameToolStripMenuItem_Click);
+            // 
+            // day07ChangeColorToolStripMenuItem
+            // 
+            this.day07ChangeColorToolStripMenuItem.Name = "day07ChangeColorToolStripMenuItem";
+            this.day07ChangeColorToolStripMenuItem.Size = new System.Drawing.Size(301, 34);
+            this.day07ChangeColorToolStripMenuItem.Text = "Day07 - Change Color";
+            this.day07ChangeColorToolStripMenuItem.Click += new System.EventHandler(this.day07ChangeColorToolStripMenuItem_Click);
             // 
             // PracticeWithProject
             // 
@@ -92,5 +101,6 @@
         private System.Windows.Forms.ToolStripMenuItem projectToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem day05CaculatorToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem day06RandomGameToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem day07ChangeColorToolStripMenuItem;
     }
 }

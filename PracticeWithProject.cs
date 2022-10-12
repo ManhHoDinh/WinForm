@@ -38,5 +38,11 @@ namespace Day2
             RandomGameDay06 randomGameDay06 = new RandomGameDay06();
             randomGameDay06.Show();
         }
+
+        private void day07ChangeColorToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ChangeColorDay07 changeColorDay07 = new ChangeColorDay07();
+            changeColorDay07.Show();
+        }
     }
 }
