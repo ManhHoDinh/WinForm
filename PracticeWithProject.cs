@@ -44,5 +44,11 @@ namespace Day2
             ChangeColorDay07 changeColorDay07 = new ChangeColorDay07();
             changeColorDay07.Show();
         }
+
+        private void day08PredictAppToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form f = new PredictAppDay08();
+            f.Show();
+        }
     }
 }
